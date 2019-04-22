@@ -1,3 +1,3 @@
 # study
- [Preview](https://your-name.github.io/your-repo/)
- [PullRequest](https://laliquenoare.github.io/study/)
+ [Preview](https://laliquenoare.github.io/study/)
+ [PullRequest](https://github.com/Laliquenoare/study/pull/1/files)
