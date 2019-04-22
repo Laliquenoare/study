@@ -115,5 +115,64 @@ li a:hover {
   color: #999999;
   max-width: 730px;
   margin: 0 auto;
+  margin-bottom: 116px;
+}
+.services {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 105px;
+}
+.services__items {
+  display: flex;
+  max-width: 1113px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+.services__item {
+  position: relative;
+  padding-left: 130px;
+  text-align: left;
 }
 
+.services__item::before{
+  content: '';
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 5px;
+  top: -28px;
+  background: url(../img/Group.svg);
+}
+.services__item h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: normal;
+
+}
+
+.services__item p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  max-width: 222px;
+}
+
+.services a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: normal;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  color: #fff;
+  padding: 13px 46px 15px 46px;
+}
+
+
+.services a:hover {
+  opacity: 0.7;
+}
